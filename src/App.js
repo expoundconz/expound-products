@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import BTCChart from './components/charts/BTCChart';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          I live in AWS
+          Crypto Status
         </p>
+        <BTCChart></BTCChart>
       </header>
     </div>
   );
